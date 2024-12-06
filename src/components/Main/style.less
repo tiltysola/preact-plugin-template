@@ -1,0 +1,40 @@
+.main {
+	&-logo {
+		display: flex;
+		justify-content: center;
+		margin-top: 16px;
+		margin-bottom: 16px;
+		padding: 8px;
+		img {
+			width: 96px;
+			border-radius: 64px;
+			cursor: pointer;
+			transition: all .3s;
+			&:hover {
+				filter: drop-shadow(0 0 8px #00000028);
+			}
+		}
+	}
+	&-title {
+		margin-bottom: 16px;
+		font-size: 16px;
+		text-align: center;
+	}
+	&-resource {
+		margin-bottom: 8px;
+		padding: 0 16px;
+		&-title {
+			font-size: 16px;
+			a {
+				color: #000000;
+				transition: all .3s;
+				&:hover {
+					color: #673ab8;
+				}
+			}
+		}
+		&-description {
+			font-size: 12px;
+		}
+	}
+}

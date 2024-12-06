@@ -1,0 +1,1 @@
+# Preact Plugin Template

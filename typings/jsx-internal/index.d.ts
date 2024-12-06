@@ -1,0 +1,3 @@
+namespace JSXInternal {
+  interface Element {};
+}
